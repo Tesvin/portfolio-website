@@ -30,7 +30,7 @@ const Work = () => {
                             <a target='_blank' href='https://find-a-recipe-app.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a target='_blank' href='https://github.com/Tesvin/RecipeApp'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
