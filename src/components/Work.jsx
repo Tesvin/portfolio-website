@@ -2,6 +2,7 @@ import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 import foodapp from '../assets/projects/food-app.jpg'
+import expensetracker from '../assets/projects/expensetracker3.jpg'
 
 const Work = () => {
   return (
@@ -38,19 +39,19 @@ const Work = () => {
                 </div>
 
                  <div 
-                    style={{backgroundImage: `url(${realEstate})`}} 
+                    style={{backgroundImage: `url(${expensetracker})`}} 
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                        Hover Effects 
+                        {/* Hover Effects  */}
                     <div className='opacity-0 group-hover:opacity-80'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Expense Tracker
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a target='_blank' href='https://expenses-webapp.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a target='_blank' href='https://github.com/Tesvin/portfolio-website'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
