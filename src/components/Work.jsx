@@ -1,10 +1,11 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 //import realEstate from '../assets/projects/realestate.jpg'
+//import expensetracker from '../assets/projects/expensetracker3.jpg'
 import estatewebapp from '../assets/projects/estateWebapp.PNG'
 import foodapp from '../assets/projects/food-app.jpg'
 import profileApp from '../assets/projects/ProfileApp.PNG'
-import expensetracker from '../assets/projects/expensetracker3.jpg'
+import refitinco from '../assets/projects/refitinco.PNG'
 
 const Work = () => {
   return (
@@ -60,10 +61,30 @@ const Work = () => {
                 </div> 
 
                 <div 
+                    style={{backgroundImage: `url(${refitinco})`}} 
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                     {/* Hover Effects  */}
+                    <div className='opacity-0 group-hover:opacity-80'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Refintico 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a target='_blank' href='https://refitinco.onrender.com'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            {/* <a href=''>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a> */}
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div 
                     style={{backgroundImage: `url(${expensetracker})`}} 
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                        {/* Hover Effects  */}
+                         Hover Effects
                     <div className='opacity-0 group-hover:opacity-80'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             Expense Tracker
@@ -77,7 +98,7 @@ const Work = () => {
                             </a>
                         </div>
                     </div>
-                </div> 
+                </div>  */}
                 
                 {/* Grid Item */}
                 <div 
@@ -100,25 +121,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* <div 
-                    style={{backgroundImage: `url(${WorkImg})`}} 
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                     Hover Effects 
-                    <div className='opacity-0 group-hover:opacity-80'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div> */}
+                
 
                 {/* <div 
                     style={{backgroundImage: `url(${realEstate})`}} 
